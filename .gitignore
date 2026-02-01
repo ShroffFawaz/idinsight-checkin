@@ -1,0 +1,11 @@
+# secrets
+Back_end/.env
+
+# python junk
+__pycache__/
+Back_end/__pycache__/
+*.pyc
+.venv/
+
+# local-only helpers
+run_server.cmd
