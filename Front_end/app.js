@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             console.log('Fetching /file/upload...');
-            const response = await fetch('/file/upload', {
+            const response = await fetch('https://idinsight-backend.onrender.com/file/upload', {
                 method: 'POST',
                 body: formData
             });
